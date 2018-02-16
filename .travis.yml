@@ -4,4 +4,4 @@ script:
   - mvn test
   - git clone https://github.com/Zipcoder/tests
   - cp tests/4dot0exam1/* src/test/java/
-  - mvn test >> /dev/null
+  - mvn test
